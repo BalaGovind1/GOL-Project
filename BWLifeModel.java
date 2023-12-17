@@ -244,6 +244,7 @@ public class BWLifeModel extends Observable
 
     }
 
+    //Get Pattern Choice Input from User
     public static int getIntChoice(Scanner input, int min, int max) {
         // Get user choice
         int userChoice = 0;
@@ -271,12 +272,13 @@ public class BWLifeModel extends Observable
         return userChoice;
     }
 
-
+   //Get Sleeper Timer Input from User
     public static int getNewTimerUserInput() {
         int i=Integer.parseInt(input);
         return i;
     }
 
+    //Get Panel Size Input from User
     public static int getPanelSizeinput() {
         int i= 0;
         if (panel=='S')
@@ -288,6 +290,7 @@ public class BWLifeModel extends Observable
         return i;
     }
 
+    //Get No of Generation Input from User
     public static int getNoofiterations() {
         int i=Integer.parseInt(numberofiterations);
         return i;
